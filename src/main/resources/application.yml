@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: evaluacion-java-api-usuarios
+    version: 1.0.0
+  h2:
+    console:
+      path: /h2
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:usuarios
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  sql:
+    init:
+      mode: always
+      encoding: UTF-8
+  jpa:
+    open-in-view: true
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+springdoc:
+  swagger-ui:
+    path: /doc.html
+validation:
+  regex:
+    email: ^[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,5}$
+    password: ^[A-Z][a-z]+[0-9]{2}$
