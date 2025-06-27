@@ -8,7 +8,6 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import cl.banco.evaluacion.config.JwtAuthFilter;
 import cl.banco.evaluacion.exceptions.InvalidTokenException;
 import cl.banco.evaluacion.service.MyUserDetailsService;
 import cl.banco.evaluacion.util.JwtUtil;

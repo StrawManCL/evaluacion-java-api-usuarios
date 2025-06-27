@@ -8,7 +8,6 @@ import static org.mockito.ArgumentMatchers.isA;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import cl.banco.evaluacion.controller.impl.UsuarioController;
 import cl.banco.evaluacion.dto.UsuarioBasicDTO;
 import cl.banco.evaluacion.dto.UsuarioRequestDTO;
 import cl.banco.evaluacion.service.UsuarioService;

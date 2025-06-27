@@ -10,7 +10,6 @@ import static org.mockito.Mockito.when;
 
 import cl.banco.evaluacion.exceptions.EmailAlreadyExistsException;
 import cl.banco.evaluacion.exceptions.InvalidTokenException;
-import cl.banco.evaluacion.exceptions.handlers.GlobalExceptionHandler;
 import java.util.Map;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
