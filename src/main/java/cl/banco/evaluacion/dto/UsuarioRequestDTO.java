@@ -20,8 +20,8 @@ public record UsuarioRequestDTO(
         @ValidEmail
         String email,
 
-        @Schema(name = "password", example = "hunter2", requiredMode = Schema.RequiredMode.REQUIRED,
-            description = "Contraseña debe contener al menos 6 caracteres, minúsculas y números")
+        @Schema(name = "password", example = "Hunter22", requiredMode = Schema.RequiredMode.REQUIRED,
+            description = "Contraseña debe tener una mayúscula, letras minúsculas y dos números")
         @JsonProperty("password")
         @ValidPassword
         String password,
